@@ -1,6 +1,6 @@
 #Design a program for creating a machine which accepts string having equal no. of 1’s and 0's
 
-ef equal_ones_and_zeros(s):
+def equal_ones_and_zeros(s):
     state = 'start'
     count_ones = 0
     count_zeros = 0
