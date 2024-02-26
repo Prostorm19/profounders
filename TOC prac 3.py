@@ -1,3 +1,4 @@
+#Write a program for generating derivation sequence / language for the given sequence of productions
 def generate_language(productions, current_string, index, target_length):
     if index == target_length:
         print(current_string)
